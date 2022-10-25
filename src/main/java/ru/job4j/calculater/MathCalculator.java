@@ -1,4 +1,4 @@
-package ru.job4j.calculate;
+package ru.job4j.calculater;
 
 import ru.job4j.math.MathFunction;
 
