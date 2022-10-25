@@ -1,4 +1,4 @@
-package ru.job4j.calculater;
+package ru.job4j.calculator;
 
 public class FitFix {
 
