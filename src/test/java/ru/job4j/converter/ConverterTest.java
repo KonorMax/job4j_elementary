@@ -17,8 +17,8 @@ public final class ConverterTest {
     @Test
     public void whenConvert180RblThen3Dollar() {
         float input = 180;
-        float wait = 2.5714f; // 3;
-        float exit = Converter.rubleToEuro(input);
+        float wait = 3;
+        float exit = Converter.rubleToDollar(input);
         float eps = 0.0001f;
         Assert.assertEquals(wait, exit, eps);
     }

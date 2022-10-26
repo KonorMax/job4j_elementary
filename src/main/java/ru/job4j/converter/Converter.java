@@ -31,9 +31,9 @@ public class Converter {
 
             float in1 = 300;
             float expected1 = 4;
-            float out1 = ru.job4j.converter.Converter.rubleToPound(input);
+            float out1 = ru.job4j.converter.Converter.rubleToPound(in1);
             boolean passed1 = expected1 == out1;
-            System.out.println("300 rubles are 4 Pound. Test result: " + past);
+            System.out.println("300 rubles are 4 Pound. Test result: " + passed1);
 
         }
 
